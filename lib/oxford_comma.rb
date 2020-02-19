@@ -5,7 +5,7 @@ array.join
 elsif array.size == 1
 array.join
 elsif array.size > 2
-array[-1] prepend "and"
+array[-1].prepend "and"
 array.join(" , ")
 end
 
